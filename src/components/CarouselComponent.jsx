@@ -20,10 +20,10 @@ function CarouselComponent(){
         slidesToShow: 1,
         slidesToScroll: 1,
       };
-    const deskImgUrl = ['../../public/desktop-image-hero-1.jpg', '../../public/desktop-image-hero-2.jpg', 
-                    '../../public/desktop-image-hero-3.jpg'];
-    const mobileImgUrl = ['../../public/mobile-image-hero-1.jpg', '../../public/mobile-image-hero-2.jpg', 
-                        '../../public/mobile-image-hero-3.jpg'];
+    const deskImgUrl = ['/desktop-image-hero-1.jpg', '/desktop-image-hero-2.jpg', 
+                    '/desktop-image-hero-3.jpg'];
+    const mobileImgUrl = ['/mobile-image-hero-1.jpg', '/mobile-image-hero-2.jpg', 
+                        '/mobile-image-hero-3.jpg'];
     const heroTitle = ['Discover innovative ways to decorate', 'We are available all across the globe', 'Manufactured with the best materials'];
     const paragraph = [`We provide unmatched quality, comfort, and style for property owners across the country. 
         Our experts combine form and function in bringing your vision to life. Create a room in your 
@@ -37,14 +37,14 @@ function CarouselComponent(){
 
     const btn = <div className="btn-container">
         <button className="button" onClick={previous}>
-            <img src="../../public/icon-angle-left.svg" alt="" />
+            <img src="/icon-angle-left.svg" alt="" />
         </button>
         <button className="button" onClick={next}>
-                <img src="../../public/icon-angle-right.svg" alt="" />
+                <img src="/icon-angle-right.svg" alt="" />
             </button>
         </div>
     
-    const promp = <a href="#" className="promp">Shop now <span><img src="../../public/icon-arrow.svg" alt="" /></span></a>
+    const promp = <a href="#" className="promp">Shop now <span><img src="/icon-arrow.svg" alt="" /></span></a>
 
     return(
         <div className="slider-container">

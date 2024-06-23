@@ -3,7 +3,7 @@
 export default function Row() {
   return (
     <div className="row">
-      <img src="../../public/image-about-dark.jpg" alt="" />
+      <img src="/image-about-dark.jpg" alt="" />
 
       <div className="text row-text">
         <h2>About our furniture</h2>
@@ -13,7 +13,7 @@ export default function Row() {
   or anything in between. Product specialists are available to help you create your dream space.</p>
       </div>
 
-      <img src="../../public/image-about-light.jpg" alt="" />
+      <img src="/image-about-light.jpg" alt="" />
 
     </div>
   )

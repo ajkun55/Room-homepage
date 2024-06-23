@@ -9,9 +9,9 @@ export default function Navbar() {
         setOpen(!open);
     }    
 
-    const openMobileNav = <img src="../../public/assets/icon-hamburger.svg" alt="" onClick={toggleNav} id="hamburger" />;
+    const openMobileNav = <img src="../../public/icon-hamburger.svg" alt="" onClick={toggleNav} id="hamburger" />;
     const closeMobileNav = <>
-        <img src="../../public/assets/icon-close.svg" alt="" onClick={toggleNav} id="close"  />
+        <img src="../../public/icon-close.svg" alt="" onClick={toggleNav} id="close"  />
         <ul className="nav-mobile">
             <li><a href="#">home</a></li>
             <li><a href="#">shop</a></li>
@@ -26,7 +26,7 @@ export default function Navbar() {
             {open ? closeMobileNav : openMobileNav}            
         </div>
 
-        { (!open) && <img src="../../public/assets/logo.svg" alt="" className="logo" />}
+        { (!open) && <img src="../../public/logo.svg" alt="" className="logo" />}
 
         <div className="nav-desk-container">
             <ul className="nav-desk">
